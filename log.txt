@@ -1,0 +1,156 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:MavenPluginTest >---------------------
+[INFO] Building MavenPluginTest 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MavenPluginTest ---
+[INFO] Deleting /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ MavenPluginTest ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+[echoproperties] #Ant properties
+[echoproperties] #Thu Jun 18 07:49:22 CEST 2020
+[echoproperties] ant.core.lib=/Users/matthiasbloch/.m2/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar
+[echoproperties] ant.file=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/pom.xml
+[echoproperties] ant.file.maven-antrun-=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/antrun/build-main.xml
+[echoproperties] ant.file.type.maven-antrun-=file
+[echoproperties] ant.java.version=1.7
+[echoproperties] ant.project.default-target=main
+[echoproperties] ant.project.name=maven-antrun-
+[echoproperties] ant.version=Apache Ant(TM) version 1.8.2 compiled on December 20 2010
+[echoproperties] awt.toolkit=sun.lwawt.macosx.LWCToolkit
+[echoproperties] basedir=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest
+[echoproperties] classworlds.conf=/opt/apache-maven/bin/m2.conf
+[echoproperties] file.encoding=UTF-8
+[echoproperties] file.encoding.pkg=sun.io
+[echoproperties] file.separator=/
+[echoproperties] ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+[echoproperties] gopherProxySet=false
+[echoproperties] guice.disable.misplaced.annotation.check=true
+[echoproperties] http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+[echoproperties] java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+[echoproperties] java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+[echoproperties] java.class.path=/opt/apache-maven/boot/plexus-classworlds-2.6.0.jar
+[echoproperties] java.class.version=52.0
+[echoproperties] java.endorsed.dirs=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed
+[echoproperties] java.ext.dirs=/Users/matthiasbloch/Library/Java/Extensions\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java
+[echoproperties] java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+[echoproperties] java.io.tmpdir=/var/folders/gp/88s7w4gd05xfv5mk8rs6pptm0000gn/T/
+[echoproperties] java.library.path=/Users/matthiasbloch/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.
+[echoproperties] java.runtime.name=OpenJDK Runtime Environment
+[echoproperties] java.runtime.version=1.8.0_252-b09
+[echoproperties] java.specification.name=Java Platform API Specification
+[echoproperties] java.specification.vendor=Oracle Corporation
+[echoproperties] java.specification.version=1.8
+[echoproperties] java.vendor=AdoptOpenJDK
+[echoproperties] java.vendor.url=http\://java.oracle.com/
+[echoproperties] java.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+[echoproperties] java.version=1.8.0_252
+[echoproperties] java.vm.info=mixed mode
+[echoproperties] java.vm.name=OpenJDK 64-Bit Server VM
+[echoproperties] java.vm.specification.name=Java Virtual Machine Specification
+[echoproperties] java.vm.specification.vendor=Oracle Corporation
+[echoproperties] java.vm.specification.version=1.8
+[echoproperties] java.vm.vendor=AdoptOpenJDK
+[echoproperties] java.vm.version=25.252-b09
+[echoproperties] junit\:junit\:jar=/Users/matthiasbloch/.m2/repository/junit/junit/4.13/junit-4.13.jar
+[echoproperties] library.jansi.path=/opt/apache-maven/lib/jansi-native
+[echoproperties] line.separator=\n
+[echoproperties] localRepository=\      id\: local\n      url\: file\:///Users/matthiasbloch/.m2/repository/\n   layout\: default\nsnapshots\: [enabled \=> true, update \=> always]\n releases\: [enabled \=> true, update \=> always]\n
+[echoproperties] maven.conf=/opt/apache-maven/conf
+[echoproperties] maven.dependency.junit.junit.jar.path=/Users/matthiasbloch/.m2/repository/junit/junit/4.13/junit-4.13.jar
+[echoproperties] maven.dependency.org.hamcrest.hamcrest-core.jar.path=/Users/matthiasbloch/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[echoproperties] maven.home=/opt/apache-maven
+[echoproperties] maven.multiModuleProjectDirectory=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest
+[echoproperties] maven.project.dependencies.versions=4.13\:1.3\:
+[echoproperties] org.hamcrest\:hamcrest-core\:jar=/Users/matthiasbloch/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[echoproperties] os.arch=x86_64
+[echoproperties] os.name=Mac OS X
+[echoproperties] os.version=10.15.5
+[echoproperties] path.separator=\:
+[echoproperties] project.artifactId=MavenPluginTest
+[echoproperties] project.build.directory=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target
+[echoproperties] project.build.outputDirectory=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/classes
+[echoproperties] project.build.sourceDirectory=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/src/main/java
+[echoproperties] project.build.testOutputDirectory=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/test-classes
+[echoproperties] project.build.testSourceDirectory=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/src/test/java
+[echoproperties] project.groupId=org.example
+[echoproperties] project.name=MavenPluginTest
+[echoproperties] project.packaging=jar
+[echoproperties] project.version=1.0-SNAPSHOT
+[echoproperties] settings.localRepository=/Users/matthiasbloch/.m2/repository
+[echoproperties] socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+[echoproperties] sun.arch.data.model=64
+[echoproperties] sun.boot.class.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar\:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes
+[echoproperties] sun.boot.library.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib
+[echoproperties] sun.cpu.endian=little
+[echoproperties] sun.cpu.isalist=
+[echoproperties] sun.io.unicode.encoding=UnicodeBig
+[echoproperties] sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install
+[echoproperties] sun.java.launcher=SUN_STANDARD
+[echoproperties] sun.jnu.encoding=UTF-8
+[echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+[echoproperties] sun.os.patch.level=unknown
+[echoproperties] user.country=DE
+[echoproperties] user.dir=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest
+[echoproperties] user.home=/Users/matthiasbloch
+[echoproperties] user.language=en
+[echoproperties] user.name=matthiasbloch
+[echoproperties] user.timezone=Europe/Berlin
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6-SNAPSHOT:prepare-agent (default) @ MavenPluginTest ---
+[INFO] argLine set to -javaagent:/Users/matthiasbloch/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6-SNAPSHOT/org.jacoco.agent-0.8.6-SNAPSHOT-runtime.jar=destfile=/Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MavenPluginTest ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MavenPluginTest ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MavenPluginTest ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MavenPluginTest ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MavenPluginTest ---
+[INFO] Surefire report directory: /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running BranchIntegerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6-SNAPSHOT:report (report) @ MavenPluginTest ---
+[INFO] Loading execution data file /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/jacoco.exec
+[INFO] Analyzed bundle 'MavenPluginTest' with 1 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MavenPluginTest ---
+[INFO] Building jar: /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/MavenPluginTest-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ MavenPluginTest ---
+[INFO] Installing /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/target/MavenPluginTest-1.0-SNAPSHOT.jar to /Users/matthiasbloch/.m2/repository/org/example/MavenPluginTest/1.0-SNAPSHOT/MavenPluginTest-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/matthiasbloch/Documents/GitHub/MavenPluginTest/pom.xml to /Users/matthiasbloch/.m2/repository/org/example/MavenPluginTest/1.0-SNAPSHOT/MavenPluginTest-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.694 s
+[INFO] Finished at: 2020-06-18T07:49:29+02:00
+[INFO] ------------------------------------------------------------------------
