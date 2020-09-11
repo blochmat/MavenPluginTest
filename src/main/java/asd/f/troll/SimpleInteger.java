@@ -1,4 +1,4 @@
-package asd.troll;
+package asd.f.troll;
 
 public class SimpleInteger {
 
