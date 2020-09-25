@@ -1,11 +1,12 @@
 public class BranchingInteger {
 
-    public int x = 1;
-    int y = 2;
+    public int x;
+    int y;
     private int z = 3;
 
-    public int getZ() {
-        return z;
+    public BranchingInteger(int pX, int pY) {
+        x = pX;
+        y = pY;
     }
 
     public int max(int a, int b) {
@@ -25,5 +26,18 @@ public class BranchingInteger {
     public int addXYZ() {
         int x = 3;
         return x + y + z;
+    }
+
+    public int[] array() {
+        int[] result = new int[2];
+        result[0] = 1;
+        result[1] = 2;
+        return result;
+    }
+
+    public String string() {
+        String result = "";
+        result = "abc";
+        return result;
     }
 }
