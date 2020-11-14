@@ -15,7 +15,7 @@ public class GCDTest {
 
     @Test
     public void test_primes() {
-        int result = gcd.gcd(17, 23);
+        int result = gcd.gcd(6, 5);
         assertEquals(1, result);
     }
 }

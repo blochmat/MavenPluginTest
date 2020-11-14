@@ -2,7 +2,7 @@ package asd.f.troll;
 
 public class SimpleInteger {
 
-    public int foo() { //  is this a comment:
+    public int foo() { // is this a comment:
         int a = 23;
         int b = 42;
         int c = a + b;
