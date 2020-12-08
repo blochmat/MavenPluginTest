@@ -1,4 +1,4 @@
-import asd.f.troll.SimpleInteger;
+import some.path.to.SimpleInteger;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

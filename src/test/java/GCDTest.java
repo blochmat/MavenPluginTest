@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
-import asd.f.GCD;
+import some.path.GCD;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ public class GCDTest {
 
     @Test
     public void test_primes() {
-        int result = gcd.gcd(6, 5);
+        int result = gcd.calculateGCD(6, 5);
         assertEquals(1, result);
     }
 }

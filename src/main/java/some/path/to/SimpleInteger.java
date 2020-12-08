@@ -1,4 +1,4 @@
-package asd.f.troll;
+package some.path.to;
 
 public class SimpleInteger {
 
